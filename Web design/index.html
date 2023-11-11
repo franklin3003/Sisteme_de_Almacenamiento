@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E.E.S.T N°2</title>
-    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\style2.css">
+    
     <link rel="shortcut icon" type="image/png" href="images\fav-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,39 +15,32 @@
 
 <body background="images/fondo1.jpg">
 
-    <main class="main">
-        <header class="header flex">
-            <h2 class="h2">Sistema de Almacenamiento | E.E.S.T.N°2</h2>
-            <nav class="nav grid">
-                <ul class="nav-ul flex">
-                    <!-- <li class="nav-li"><a class="nav-a active">Home</a></li> -->
-                    <!-- <li class="nav-li"><a class="nav-a" href="iniciar sesion.html">Iniciar sesión</a></li> -->
-                </ul>
-            </nav>
+        <header>
+            <h2>Sistema de Almacenamiento | E.E.S.T.N°2</h2>
         </header>
-        <section class="section welcome flex">
-            <article class="article welcome">
-                <form action="" method="post" class="formulario">
-                    <h1>Inicio de Sesion</h1>                 
+
+        <main>
+            <section>        
+                <form method="post" class="formulario">
+                    <p class="titulo">Inicio de Sesion</p>                 
                     <div>
-                        <br>
-                      <h3 for="user">Usuario</h1>
-                      <input style="padding: 5px 5px;" type="email" id="user" name="user_name" placeholder="Usuario"/>
+                      <p class="subtitulo" for="user">Usuario</p>
+                      <input type="email" id="user" name="user_name" placeholder="Usuario" required/>
                     </div>
                     <div>
-                      <h3 for="password">Contraseña</h1>
-                      <input style="padding: 5px 5px;" type="password" id="password" name="password" placeholder="Contraseña"/>
-                    </div><br>
-                    <div>
-                        <button class="button" type="submit"> Iniciar Sesion </button>
-                      </div>
+                      <p class="subtitulo" for="password">Contraseña</p>
+                      <input type="password" id="password" name="password" placeholder="Contraseña" required/>
+                    </div>
+                    <br>     
+                   
+                        <button id="button"> Iniciar Sesion </button>
+                  
                   </form>
-                 
-            </article>
-            
-        </section>
-    </main>
-    <script src="/js/scripts.js"></script>
+            </section>
+        </main>
+
+        <script src="js/scripts.js"></script>
+
 </body>
 
 </html>
