@@ -7,9 +7,10 @@ header {
     color: white;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 0 0 0 10px;
     font-family: 'DM Sans', sans-serif;
     height: 10%;
+    font-size: 1.5rem;
 }
 .formulario{
     position:absolute;
@@ -21,9 +22,9 @@ header {
     background:gray;
     justify-content: left;
     text-align: center;
-    font-family: 'DM Sans', sans-serif;
-    
+    font-family: 'DM Sans', sans-serif;  
 }
+
 .titulo{
     text-align: center; 
     font-size: 1.7rem;
@@ -50,5 +51,9 @@ button{
 }
 input{
     padding: 5px 5px;
-
 }
+ aside{
+    background-color: aqua;
+    position: absolute;
+    
+ }
